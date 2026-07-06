@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.log
+.venv/
+venv/
+ENV/
+env/
+.env
+inventory/devices.json
+logs/automation.log
+outputs/
+reports/
+screenshots/

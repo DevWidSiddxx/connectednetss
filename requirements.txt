@@ -1,0 +1,6 @@
+flask
+netmiko
+paramiko
+pandas
+colorama
+Jinja2
