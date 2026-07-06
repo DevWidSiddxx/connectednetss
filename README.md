@@ -123,8 +123,3 @@ pip install -r requirements.txt
 - Running configurations vs. Startup configurations
 - VLANs and Interface states
 
-## Interview Talking Points
-- **Why `Netmiko` over raw `Paramiko`?**: Discuss how Netmiko abstracts away the complexities of dealing with different vendor prompts and paging (e.g., `--More--`).
-- **Multithreading**: Explain how `ThreadPoolExecutor` was used in `scanner.py` to reduce a sequential /24 subnet scan (which could take 254+ seconds) down to just a few seconds.
-- **Modularity**: Discuss the separation of concerns (e.g., logging in its own module, abstracting paths in `config.py`).
-- **Error Handling**: Detail how network automation scripts are prone to failure (timeouts, bad credentials) and how this project catches and logs those specific exceptions rather than crashing.
